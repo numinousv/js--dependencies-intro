@@ -7,9 +7,10 @@ Det huvudsakliga syftet med denna uppgift är att lära sig at installera och an
 ## 👩‍💻 Steg
 
 1. Gå igenom stegen i `npm init`
-2. Ändra type till `"module"`
-3. Installera [vite](https://www.npmjs.com/package/vite) som dev dependency
-4. Ta bort eventuella skript och lägg till `dev`, `build`och `preview`. script-delen av `package.json` bör se upå följande sätt:
+2. Öppna `package.json`
+3. Ändra type till `"module"`
+4. Installera [vite](https://www.npmjs.com/package/vite) som dev dependency
+5. Ta bort eventuella skript och lägg till `dev`, `build`och `preview`. script-delen av `package.json` bör se upå följande sätt:
 
    ```json
    "scripts": {
@@ -19,8 +20,8 @@ Det huvudsakliga syftet med denna uppgift är att lära sig at installera och an
    }
    ```
 
-5. Kör `npm run dev` och följ länken i terminalen (Oftast `http://localhost:5174/`). Du har nu spunnit upp en lokal utvecklarmiljö för din Vite-app. Precis som Live Server använder Vite en HMR (Hot reload module) som laddar om varje gång du sparar en ändring.
-6. Nu är det dags att installera och använda dependencies.
+6. Kör `npm run dev` och följ länken i terminalen (Oftast `http://localhost:5174/`). Du har nu spunnit upp en lokal utvecklarmiljö för din Vite-app. Precis som Live Server använder Vite en HMR (Hot reload module) som laddar om varje gång du sparar en ändring.
+7. Nu är det dags att installera och använda dependencies.
 
 ## 🖼️ Om du vill göra UI-ändringar
 
