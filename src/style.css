@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
-@import "./templates/main/style.css";
-@import "./templates/header/style.css";
-@import "./templates/footer/style.css";
+/* @import "./templates/main/style.css"; */
+/* @import "./templates/header/style.css"; */
+/* @import "./templates/footer/style.css"; */
+@import "tailwindcss";
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 html,
 body {
